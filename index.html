@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="imagenes/R.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"
+            ></textarea>
+
+            <img src="imagenes/Logo.jpg" alt="Logotipo de Alura" class="logo">
+            
+        <div class="terminos">
+            <p>Solo letras minusculas y sin acentos</p>
+        </div>
+        
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">
+                Encriptar
+            </button>
+            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()"/>
+        </div>
+        </div>
+        <div class="encriptado">
+        <img src="imagenes/muñeco.png" alt="" id="muñeco" />
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
+            <p id="parrafo"> Ingresa el texto que deseas encriptar o desencriptar</p>
+
+            <div class="iconos">
+                <a href="https://github.com/Nea2378" class="github">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nancyestrada91/" class="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.tiktok.com/@neaestrada/" class="tiktok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://www.whatsapp.com" class="whatsapp" target="_blank">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/neaestrada" class="instagram">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/nancy.estradaalonso.98" class="facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                
+            </div>
+
+                <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje">
+                </textarea>-->
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <p>Derechos de autor  ©  Todos los derechos reservados <b>Nancy Estrada Alonso-7/3/2024</b> </p>
+        </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
